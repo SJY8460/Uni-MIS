@@ -1,0 +1,12 @@
+*.bin
+bert-base-uncased/
+.fitlog/
+.fitconfig
+logs/
+
+*/__pycache__
+wandb/
+save/
+*.sh
+*.ipynb
+data/MixCAIS_clean

@@ -1,0 +1,4 @@
+FastNLP==0.6.0
+numpy==1.23.0
+fitlog==0.9.15
+

@@ -1,0 +1,51 @@
+{
+    "version": "0.2.0",
+
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python": "/home/shangjian/miniconda3/envs/all/bin/python",
+            "args": [
+                "-g",
+                "-hv",
+                "-ed",
+                "128",
+                "-ied",
+                "256",
+                "-ws",
+                "3",
+                "-lr",
+                "0.001",
+                "-sdhd",
+                "384",
+                "-nh",
+                "4",
+                "-dghd",
+                "128",
+                "-wt",
+                "tf",
+                "-ne",
+                "200",
+                "-sd",
+                "./save/MixATIS_clean",
+                "-dd",
+                "./data/MixATIS_clean",
+                "-bs",
+                "16",
+                "-rs",
+                "4",
+                "--decoder",
+                "agif",
+                "-et",
+                "roberta",
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "1"
+            }
+        }
+    ]
+}
